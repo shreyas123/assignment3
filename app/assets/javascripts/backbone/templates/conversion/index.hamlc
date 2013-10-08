@@ -1,0 +1,12 @@
+.conversions =@name
+%br
+  - _.each @values, (value) =>
+    - if @val?["#{value}"]["name"]
+      = @val["#{value}"]["name"]
+    %input{type: 'number', class: "#{value}"} 
+    = @val?["#{value}"]?["symbol"]
+    %br
+
+%br
+%br
+  

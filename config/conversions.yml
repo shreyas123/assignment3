@@ -1,0 +1,29 @@
+---
+conversions: 
+  - 
+    name: Degree <=> Fahrenheit
+    values: ['degree', 'fahrenheit']
+    degree: 
+      formula: "(#{fahrenheit} - 32) * 5 / 9"
+      symbol: "°C"
+      name: 'Degree'
+      change: 'fahrenheit'
+    fahrenheit: 
+      change: 'degree'
+      formula: "(#{degree}  *  9)/5 + 32"
+      symbol: "°F"
+      name: 'Fahrenheit'
+  - 
+    name: Meter <=> Kilometer
+    values: ['meter', 'kilometer']
+    meter: 
+      formula: "#{kilometer} / 1000"
+      symbol: "m"
+      name: 'Meter'
+      change: 'kilometer'
+    kilometer: 
+      change: 'meter'
+      formula: "#{meter}  *  1000"
+      symbol: "km"
+      name: 'Kilometer'
+
