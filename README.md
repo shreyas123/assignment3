@@ -32,3 +32,10 @@ and Jasmine spec using
 <pre>
 http://localhost:3000/jasmine
 </pre>
+
+Adding More Conversions
+-----------------------
+
+To add more conversion please have a look at the config/conversions.yml
+
+The data is self explanatory for adding a new conversion. 
